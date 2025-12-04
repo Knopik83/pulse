@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../project"
+		},
+		{
+			"path": "../project2"
+		},
+		{
+			"path": "../project3"
+		},
+		{
+			"path": "../project_1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pulse",
+		"liveServer.settings.CustomBrowser": "chrome"
+	}
+}

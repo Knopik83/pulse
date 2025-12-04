@@ -1,0 +1,49 @@
+@use 'base/variables';
+@use 'block/promo';
+@use 'block/header';
+@use 'block/buttons';
+@use 'block/advantages';
+@use 'block/consultation';
+@use 'block/titles';
+@use 'block/forms';
+@use 'block/carousel';
+@use 'block/catalog';
+@use 'block/comment';
+@use 'block/footer';
+@use 'block/modal';
+@use 'base/media';
+@use 'block/pageup';
+@use 'base/animations';
+
+
+* {
+    font-family: "roboto", sans-serif;
+    font-family: "MuseoModerno", sans-serif;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.button {
+    
+     background-color: variables.$main-color;
+
+
+}
+.catalog {
+    &__tab {
+        &_active {
+        background-color: variables.$main-color;
+
+    } 
+
+    }
+    &-item {
+        &__link {
+            color: variables.$main-color;
+        }
+    }
+}
+
+
+
